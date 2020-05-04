@@ -16,7 +16,8 @@ const actions = {
       storage.setLocalStorageItem("cart", response);
       context.commit(SET_CART, response);
     } catch (error) {
-      context.commit(SET_CART, {
+        storage.setLocalStorageItem("cart", undefined);
+        context.commit(SET_CART, {
         cartList: [],
         totalPrice: 0
       });
@@ -29,7 +30,8 @@ const actions = {
     }
   },
   clearCart(context) {
-    context.commit(SET_CART, {
+      storage.setLocalStorageItem("cart", undefined);
+      context.commit(SET_CART, {
       cartList: [],
       totalPrice: 0
     });
