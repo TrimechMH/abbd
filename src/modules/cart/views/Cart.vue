@@ -42,7 +42,7 @@
       <!-- Discount Area End -->
     </div>
     <div class="cart-checkout floatleft margT25" v-else>
-      <h3>There is no product in your cart</h3>
+      <h3>Your cart is empty</h3>
       <router-link class="cursor" :to="{ name: 'catalogue' }">
         Back to shopping list !
         <i class="fa fa-chevron-left"></i>

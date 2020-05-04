@@ -6,7 +6,7 @@
           <ul id="nav">
             <li>
               <router-link class="cursor" :to="{ name: 'catalogue' }"
-                >HOME</router-link
+                >PRODUCT</router-link
               >
             </li>
             <li>

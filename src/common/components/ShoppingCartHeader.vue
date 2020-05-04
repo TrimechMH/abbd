@@ -16,7 +16,7 @@
               </span>
             </div>
             <div v-else="" class="cart-product-line">
-              <span>There is no product in your cart</span>
+              <span>Your cart is empty</span>
             </div>
           </div>
           <div class="cart-checkout">
