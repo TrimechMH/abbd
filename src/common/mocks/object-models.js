@@ -1,0 +1,97 @@
+export const CART = {
+  cartList: [
+    {
+      title:
+        'PC Portable Gaming MSI GF65 Thin 9SD-224FR 15.6" Intel Core i5 16 Go RAM 512 Go SSD Noir',
+      price: "1050",
+      ptoductType: "Ordinateur portable",
+      stars: "4",
+      mark: "Msi",
+      id: 1,
+      cover:
+        "https://cdn.comparez-malin.fr/img/msi/2020/19889/msi-gf65-thin-5.jpg",
+      quantity: 1
+    }
+  ],
+  totalPrice: 1050
+};
+
+export const MOCK_PRODUCT_RESULT_LIST = [
+  {
+    title:
+      'PC Portable Gaming MSI GF65 Thin 9SD-224FR 15.6" Intel Core i5 16 Go RAM 512 Go SSD Noir',
+    price: "1050",
+    ptoductType: "Ordinateur portable",
+    stars: "4",
+    mark: "Msi",
+    id: 1,
+    cover:
+      "https://cdn.comparez-malin.fr/img/msi/2020/19889/msi-gf65-thin-5.jpg"
+  },
+  {
+    title:
+      'PC Portable Gaming MSI GL75 9SE-265FR 17.3" Intel Core i7 16 Go RAM 256 Go SSD + 1 To SATA Noir',
+    price: "1499",
+    ptoductType: "Ordinateur portable",
+    stars: "5",
+    mark: "Msi",
+    id: 2,
+    cover:
+      "https://static.fnac-static.com/multimedia/Images/FR/MDM/a4/46/d4/13911716/1540-1/tsp20200402180921/PC-Portable-Gaming-MSI-GL75-9SE-265FR-17-3-Intel-Core-i7-16-Go-RAM-256-Go-D-1-To-SATA-Noir.jpg"
+  },
+  {
+    title:
+      'PC Portable Lenovo Legion Y540-17IRH 17.3" Intel Core i7 16 Go RAM 256 Go SSD + 1 To SATA Noir',
+    price: "1500",
+    ptoductType: "Ordinateur portable",
+    stars: "5",
+    mark: "Lenovo",
+    id: 3,
+    cover:
+      "https://static.fnac-static.com/multimedia/Images/FR/MDM/ec/52/be/12473068/1540-1.jpg"
+  },
+  {
+    title:
+      'PC Portable Gaming HP Pavilion 15-cx0014nf 15.6" Intel Core i7 8 Go RAM 1 To',
+    price: "959",
+    ptoductType: "Ordinateur portable",
+    stars: "",
+    mark: "HP",
+    id: 4,
+    cover:
+      "https://images-na.ssl-images-amazon.com/images/I/71P552OSEAL._AC_SX425_.jpg"
+  },
+  {
+    title:
+      'PC Portable Gaming Dell G3 15-3590 15.3" Intel Core i5 8 Go RAM 512 Go SSD',
+    price: "1012",
+    ptoductType: "Ordinateur portable",
+    stars: "1",
+    mark: "Dell",
+    id: 5,
+    cover:
+      "https://static.fnac-static.com/multimedia/Images/FR/MDM/54/e7/b8/12117844/1520-9/tsp20200423191323/PC-Portable-Gaming-Dell-G3-15-3590-15-3-Intel-Core-i5-8-Go-RAM-512-Go-D.jpg"
+  },
+  {
+    title:
+      'PC Portable Acer Predator Helios 300 PH317-53-51CG 17.3" Intel Core i5 8 Go RAM 512 Go SSD Noir',
+    price: "1190",
+    ptoductType: "Ordinateur portable",
+    stars: "4",
+    mark: "Acer",
+    id: 6,
+    cover:
+      "https://static.fnac-static.com/multimedia/Images/FR/MDM/3d/27/d0/13641533/1520-1/tsp20200309130543/PC-Portable-Acer-Predator-Helios-300-PH317-53-51CG-17-3-Intel-Core-i5-8-Go-RAM-512-Go-D-Noir.jpg"
+  },
+  {
+    title:
+      "PC Portable Asus ROG STRIX-G-G531GT-AL007 Intel Core i5 8 Go RAM 512 Go SSD",
+    price: "1050",
+    ptoductType: "Ordinateur portable",
+    stars: "5",
+    mark: "Asus",
+    id: 7,
+    cover:
+      "https://cdn.comparez-malin.fr/cache/product/img/asus/2019/16690/asus-rog-strix-g-g531-1.jpg"
+  }
+];
