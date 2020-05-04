@@ -1,4 +1,4 @@
-import { shallowMount } from "@vue/test-utils";
+import { shallowMount, createLocalVue } from "@vue/test-utils";
 
 import setupApp from "./main";
 import App from "./App.vue";
